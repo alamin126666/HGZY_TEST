@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: hgzy-auto-prediction
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7995901755:AAG0td-AkEr534qLj5SryZGDr1jMOfGj5Uw
